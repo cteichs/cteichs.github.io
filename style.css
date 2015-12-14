@@ -1,0 +1,168 @@
+
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16pt;
+    background-color: #DCDCDC;
+}
+.wrapper {
+  height:100vh;
+  display:flex;
+  // Direction of the items, can be row or column
+  flex-direction: column;
+}
+
+.Brockuniversity{
+  bottom:800px;
+  left:-430px;
+  z-index: 1;
+}
+
+.Box1{
+  position:absolute;
+  height:60px;
+  width:90px;
+  top: -55px;
+  left: 250px;
+  background-color: grey;
+  border-bottom-right-radius: 0.50em;
+  border-top-left-radius: 0.50em;
+  border-bottom-right-radius: 0.50em;
+  border-top-right-radius: 0.50em;
+    border-bottom-left-radius: 0.50em;
+}
+.Box2{
+  position:absolute;
+  text-align: center;
+  height:60px;
+  width:90px;
+  top: -55px;
+  left: 450px;
+  background-color: grey;
+  border-bottom-right-radius: 0.50em;
+  border-top-left-radius: 0.50em;
+  border-bottom-right-radius: 0.50em;
+  border-top-right-radius: 0.50em;
+    border-bottom-left-radius: 0.50em;
+}
+.Box3{
+  position:absolute;
+  text-align: center;
+  height:60px;
+  width:90px;
+  top: -55px;
+  left: 650px;
+  background-color: grey;
+  border-bottom-right-radius: 0.50em;
+  border-top-left-radius: 0.50em;
+  border-bottom-right-radius: 0.50em;
+  border-top-right-radius: 0.50em;
+    border-bottom-left-radius: 0.50em;
+}
+.Box4{
+  position:absolute;
+  text-align: center;
+  height:60px;
+  width:90px;
+  top: -55px;
+  left: 850px;
+  background-color: grey;
+  border-bottom-right-radius: 0.50em;
+  border-top-left-radius: 0.50em;
+  border-bottom-right-radius: 0.50em;
+  border-top-right-radius: 0.50em;
+    border-bottom-left-radius: 0.50em;
+}
+.Box5{
+  position:absolute;
+  text-align: center;
+  height:60px;
+  width:90px;
+  top: -55px;
+  left: 1050px;
+  background-color: grey;
+  border-bottom-right-radius: 0.50em;
+  border-top-left-radius: 0.50em;
+  border-bottom-right-radius: 0.50em;
+  border-top-right-radius: 0.50em;
+    border-bottom-left-radius: 0.50em;
+}
+footer {
+  height: 400px;
+  width:280px;
+  position: relative;
+ top: 120px;
+ z-index:5;
+ left: 720px;
+}
+
+header {
+  height:720px;
+  width:220px;
+  position: relative;
+ top: 5px;
+}
+
+main {
+  height: 140px;
+  width: 980px;
+  position: absolute;
+ top: 15px;
+left: 250px;
+ z-index:1;
+
+}
+div.img {
+    margin: 5px;
+    border: 5px solid black;
+    width: 400px;
+    height:250px;
+    position:absolute;
+    left:450px;
+    bottom:150px;
+}
+
+div.images1{
+  height: 150px;
+  width: 150px;
+  position:absolute;
+  left:-430px;
+  bottom:200px;
+  z-index: 2
+}
+
+div.img:hover {
+    border: px solid black;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+.clock{
+  position: absolute;
+  bottom:400px;
+  float:right;
+}
+
+// More styling
+body {margin:10}
+header {background-color:#5A0016;color:white;text-align: center;border-bottom-left-radius: 0.50em;
+  border-bottom-right-radius: 0.50em;border-top-left-radius: 0.50em;border-bottom-right-radius: 0.50em;border-top-right-radius: 0.35em;}
+main {background-color:#5A0016;color:white;text-align: center; border-bottom-left-radius: 0.50em;border-top-right-radius: 0.50em;
+  border-bottom-right-radius: 0.50em;
+    border-top:1px solid #AAAAAA;border-bottom-left-radius: 0.50em;
+      border-bottom-right-radius: 0.50em;border-top-left-radius: 0.50em;border-bottom-right-radius: 0.50em;border-top-right-radius: 0.50em}
+footer {background-color:#5A0016;color:white;text-align: center; border-bottom-left-radius: 0.50em;border-top-right-radius: 0.50em;
+  border-bottom-right-radius: 0.50em;border-top-left-radius: 0.50em;border-bottom-right-radius: 0.50em;border-top-right-radius: 0.50em;
+    border-top:1px solid #AAAAAA;}
+.Brockuniversity{
+  font-size: 30px;
+  font-weight: bolder;
+}
